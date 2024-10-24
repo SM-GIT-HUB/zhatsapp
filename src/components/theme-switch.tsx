@@ -1,4 +1,5 @@
-"use client"
+'use client'
+
 import { Button } from "@/components/ui/button"
 import {
 	DropdownMenu,
@@ -8,8 +9,6 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { useTheme } from "next-themes"
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons"
-
-import React from 'react'
 
 function ThemeSwitch() {
     const { setTheme } = useTheme();

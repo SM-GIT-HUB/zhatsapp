@@ -5,7 +5,6 @@ import Conversation from "./conversation"
 import { conversations } from "@/dummy-data/db"
 
 function LeftPanel() {
-
 	return (
 		<div className='w-1/4 border-gray-600 border-r'>
 			<div className='sticky top-0 bg-left-panel z-10'>
@@ -46,10 +45,10 @@ function LeftPanel() {
                     ))
                 }
 
-				{conversations?.length === 0 && (
+				{conversations?.length == 0 && (
 					<>
 						<p className='text-center text-gray-500 text-sm mt-3'>No conversations yet</p>
-						<p className='text-center text-gray-500 text-sm mt-3 '>
+						<p className='text-center text-gray-500 text-sm mt-3 px-1'>
 							We understand {"you're"} an introvert, but {"you've"} got to start somewhere 😊
 						</p>
 					</>

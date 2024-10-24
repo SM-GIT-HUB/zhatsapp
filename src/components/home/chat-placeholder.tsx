@@ -12,7 +12,7 @@ function ChatPlaceHolder() {
 					Make calls, share your screen and get a faster experience when you download the Windows app.
 				</p>
 
-				<Button className='rounded-full my-5 bg-green-primary hover:bg-green-secondary'>
+				<Button className='rounded-full my-5 bg-green-primary hover:bg-green-600'>
 					Get from Microsoft Store
 				</Button>
 			</div>

@@ -47,4 +47,5 @@ function Conversation ({ conversation }: { conversation: any }) {
 		</>
 	)
 }
-export default Conversation;
+
+export default Conversation

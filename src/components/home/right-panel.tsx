@@ -9,8 +9,11 @@ import MessageContainer from "./message-container"
 import GroupMembersDialog from "./group-members-dialog"
 
 function RightPanel() {
-	const selectedConversation = null;
-	if (!selectedConversation) return <ChatPlaceHolder />;
+	const selectedConversation = 1;
+
+	if (!selectedConversation) return (
+		<ChatPlaceHolder />
+	)
 
 	const conversationName = "John Doe";
     const isGroup = false;
@@ -29,7 +32,7 @@ function RightPanel() {
 						</Avatar>
 						<div className='flex flex-col'>
 							<p>{conversationName}</p>
-							{isGroup && <GroupMembersDialog />}
+							{!isGroup && <GroupMembersDialog />}
 						</div>
 					</div>
 
@@ -47,6 +50,7 @@ function RightPanel() {
 			{/* INPUT */}
 			<MessageInput />
 		</div>
-	);
-};
+	)
+}
+
 export default RightPanel

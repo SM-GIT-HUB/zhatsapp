@@ -48,6 +48,7 @@ function GroupMembersDialog() {
 				</DialogHeader>
 			</DialogContent>
 		</Dialog>
-	);
-};
-export default GroupMembersDialog;
+	)
+}
+
+export default GroupMembersDialog
